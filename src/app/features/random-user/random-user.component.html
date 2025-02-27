@@ -1,0 +1,7 @@
+<button (click)="fetchRandomUser()">Fetch Random User</button>
+
+@for(user of users; track user.id) { @if (user) {
+<h2>{{ user.name.first }} {{ user.name.last }}</h2>
+<img [src]="user.picture.medium" alt="User Picture" />
+<p>Email: {{ user.email }}</p>
+} }

@@ -1,0 +1,12 @@
+.sidenav-container {
+  display: grid;
+  grid-template-columns: 200px 1fr; // Barra lateral e espaço restante para o conteúdo
+  height: 100vh;
+}
+
+.sidenav {
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
